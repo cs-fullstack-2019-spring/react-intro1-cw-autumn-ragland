@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
+import logo from './logo.svg';
 import './App.css';
-//import component
-import BankAccount from './BankAccount'
+import Netflix from "./Netflix";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          {/*call component and pass props*/}
-          <BankAccount customerName={'Autumn'} balance={'100000'}/>
+          <Netflix/>
         </header>
       </div>
     );
